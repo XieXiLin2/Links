@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>XieXiLin 的小伙伴们</title>
+  <link rel="icon" href="https://static.xiexilin.com/Me.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+  <link rel="stylesheet" media="screen and (min-width: 600px)" href="./attets/css/index.css" />
+  <link rel="stylesheet" media="screen and (max-width: 600px)" href="./attets/css/index.mobile.css" />
+  <script src="./attets/js/index.js"></script>
+  <link href="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <section class="section">
+    <div class="content">
+      <div class="columns is-centered is-mobile">
+        <h1 class="title">
+          我的小伙伴们
+        </h1>
+      </div>
+      <br>
+      <div class="box">
+        <h3 class="title">伙伴们的信息</h3>
+        {% block linkinfo %}
+        <div class="columns is-multiline">
+          <!-- 友链部分 START -->
+          {% for link in links %}
+          <div class="column is-half">
+            <div class="card">
+              <div class="card-content">
+                <div class="media">
+                  <div class="media-left">
+                    <figure class="image is-64x64">
+                      <img src="{{ link.avatar }}" alt="avatar">
+                    </figure>
+                  </div>
+                  <div class="media-content">
+                    <p class="title is-5">{{ link.name }}</p>
+                    <p class="subtitle is-6">{{ link.banner }}</p>
+                  </div>
+                </div>
+              </div>
+              <footer class="card-footer">
+                {% for info in links.infos %}
+                <a href="{{ info.link }}" target="_blank" class="card-footer-item">{{ info.name }}</a>
+                {% endfor %}
+              </footer>
+            </div>
+          </div>
+          {% endfor %}
+          <!-- 友链部分 END -->
+        </div>
+        {% endblock %}
+      </div>
+      <div class="box">
+        <h3 class="title">加入</h3>
+        <p>来交换友链吧！在交换友链之前，您的小站需要满足以下条件：</p>
+        <ul>
+          <li>
+            <strong>支持 HTTPS 协议；</strong>
+            <ul>
+              <li>
+                （可选）支持的 TLS 版本最低为 v1.2
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>文章数量 >= 10 篇；</strong>
+            <ul>
+              <li>
+                个人主页不受此条件限制
+              </li>
+              <li>
+                <strong>原创文章至少有 3 篇</strong>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <strong>文章内不得出现违反中华人民共和国法律的内容；</strong>
+          </li>
+          <li>
+            <strong>在中国大陆地区能够正常访问；</strong>
+          </li>
+          <li>
+            <strong>服务器位于国内的，需要进行备案；</strong>
+          </li>
+          <li>
+            <strong>已将本站添加至友链列表。</strong>
+          </li>
+        </ul>
+        <p>如果您已满足上述条件，可在 <a href="https://github.com/XieXiLin2/Links" type="newtab">Github 仓库</a> 上新开一个 Issue 或提交一份 Pull
+          Request。</p>
+        <p>如果没有其它情况出现，我不会移除友链。但如果您在上述流程通过以后移除了我的友链，那么我也会毫不留情的删除您的小站。</p>
+        <p>如有特殊情况，特殊处理。</p>
+      </div>
+      <div class="box">
+        <h3 class="title">我的信息</h3>
+        <ul>
+          <li>
+            链接: <a href="https://www.xiexilin.com" target="_blank">https://www.xiexilin.com</a> 或 <a
+              href="https://www.xn--fwz71v.top/" target="_blank">https://www.xn--fwz71v.top/</a>
+          </li>
+          <li>
+            头像 (1080x1080): <a href="https://static.xiexilin.com/Me.png"
+              target="_blank">https://static.xiexilin.com/Me.png</a>
+            <ul>
+              <li>
+                Gravatar Email Hash: <code>2defd5540f480625cf9d09e5d4c3b7c4</code>
+              </li>
+              <li>
+                请尽量使用 Gravatar。感谢。
+              </li>
+            </ul>
+          </li>
+          <li>
+            站点名称: XieXiLin 的小站
+          </li>
+          <li>
+            昵称: XieXiLin
+          </li>
+          <li>
+            主题色: <code>#00CCFF</code>
+          </li>
+          <li>
+            描述: 一个学生的小站点。
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="columns is-centered is-mobile">
+      <nav>
+        <a href="https://www.xiexilin.com" target="_blank">
+          <span class="icon"><i class="far fa-copyright" style="color: #00CCFF;"></i></span>
+          {% block copyrightmessage%}
+          {{ year }} XieXiLin
+          {% endblock %}
+        </a>
+        |
+        <a href="https://lihaoyu.cn" target="_blank">
+          <span class="icon"><i class="fas fa-hands-helping" style="color: #00CCFF;"></i></span>
+          With Big_Cake's Help
+        </a>
+        |
+        <a href="https://icp.gov.moe/?keyword=20220031" target="_blank">
+          <span class="icon"><i class="fas fa-balance-scale" style="color: #00CCFF;"></i></span>
+          萌 ICP 备 20220031 号
+        </a>
+      </nav>
+    </div>
+  </section>
+</body>
+
+</html>
