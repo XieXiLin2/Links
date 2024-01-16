@@ -4,4 +4,4 @@
 
 ## Work in progress
 
-[ ] 使用 Jinja2 自动生成 `index.html`
+- [ ] 使用 Jinja2 自动生成 `index.html`
