@@ -52,13 +52,17 @@
     ]
   },
   {
-    "avatar": "https://blog.raineast.icu/images/souiken.jpg",
-    "name": "Souiken 的博客",
+    "avatar": "https://souiken.moe/img/avatar.webp",
+    "name": "Souiken",
     "banner": "只是一个普通网站罢了",
     "infos": [
       {
+        "name": "主页",
+        "link": "https://souiken.moe"
+      },
+      {
         "name": "博客",
-        "link": "https://blog.raineast.icu"
+        "link": "https://blog.souiken.moe"
       }
     ]
   },
