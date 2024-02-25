@@ -231,5 +231,20 @@
         "link": "https://blog.yisrime.xyz/"
       }
     ]
+  },
+  {
+    "avatar": "https://blog.byteloid.one/img/march7th.webp",
+    "name": "Bingxin Home",
+    "banner": "好久不见",
+    "infos": [
+      {
+        "name": "主页",
+        "link": "https://byteloid.one"
+      },
+      {
+        "name": "博客",
+        "link": "https://blog.byteloid.one"
+      }
+    ]
   }
 ]
