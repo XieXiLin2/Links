@@ -44,13 +44,12 @@
                 </div>
               </div>
               <footer class="card-footer">
-                {% for info in links.infos %}
-                <a href="{{ info.link }}" target="_blank" class="card-footer-item">{{ info.name }}</a>
-                {% endfor %}
+                {% for ink in link.links %}<a href="{{ ink.link }}" target="_blank" class="card-footer-item">{{
+                  ink.name}}</a>{% if not loop.last %}
+                {% endif %}{% endfor %}
               </footer>
             </div>
-          </div>
-          {% endfor %}
+          </div>{% endfor %}
           <!-- 友链部分 END -->
         </div>
         {% endblock %}
@@ -103,8 +102,7 @@
         <h3 class="title">我的信息</h3>
         <ul>
           <li>
-            链接: <a href="https://www.xiexilin.com" target="_blank">https://www.xiexilin.com</a> 或 <a
-              href="https://www.xn--fwz71v.top/" target="_blank">https://www.xn--fwz71v.top/</a>
+            链接: <a href="https://www.xiexilin.com" target="_blank">https://www.xiexilin.com</a>
           </li>
           <li>
             头像 (1080x1080): <a href="https://static.xiexilin.com/Me.png"

@@ -1,1 +1,4 @@
 .vercel
+.pdm-python
+__pycache__
+typings/
