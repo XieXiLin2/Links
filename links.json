@@ -137,13 +137,13 @@
     ]
   },
   {
-    "avatar": "https://server.niuboss123.com/icon",
+    "avatar": "https://server.akio.top/icon",
     "name": "御坂秋生の小窝",
     "banner": "不努力就只能听到别人的好消息",
     "links": [
       {
         "name": "博客",
-        "link": "https://www.niuboss123.com"
+        "link": "https://www.akio.top"
       }
     ]
   },
@@ -244,6 +244,47 @@
       {
         "name": "博客",
         "link": "https://blog.byteloid.one"
+      }
+    ]
+  },
+  {
+    "avatar": "https://api.ymbit.cn/images/favicon.webp",
+    "name": "烟墨的屑站点",
+    "banner": "剃刀边缘怎能起造伽蓝。",
+    "links": [
+      {
+        "name": "主页",
+        "link": "https://ymbit.cn"
+      },
+      {
+        "name": "博客",
+        "link": "https://blog.ymbit.cn"
+      }
+    ]
+  },
+  {
+    "avatar": "https://blog.1l1.icu/images/avatar.jpg",
+    "name": "夏沫花火zzz🌙",
+    "banner": "Keep doing,keep loving.",
+    "links": [
+      {
+        "name": "主页",
+        "link": "https://1l1.icu"
+      },
+      {
+        "name": "博客",
+        "link": "https://blog.1l1.icu"
+      }
+    ]
+  },
+  {
+    "avatar": "https://blog.dreamonex.eu.org/img/avatar.png",
+    "name": "DreamOneX",
+    "banner": "实践是检验真理的唯一标准",
+    "links": [
+      {
+        "name": "博客",
+        "link": "https://blog.dreamonex.eu.org"
       }
     ]
   }
