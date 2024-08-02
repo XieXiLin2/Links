@@ -287,5 +287,20 @@
         "link": "https://blog.dreamonex.eu.org"
       }
     ]
+  },
+  {
+    "avatar": "https://img.blog.kysolva.eu.org/icons.webp",
+    "name": "云之彼端",
+    "banner": "生而热忱，终也欢洽。",
+    "links": [
+      {
+        "name": "主页",
+        "link": "https://biltune.top"
+      },
+      {
+        "name": "博客",
+        "link": "https://blog.biltune.top"
+      }
+    ]
   }
 ]
