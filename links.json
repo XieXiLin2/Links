@@ -287,5 +287,16 @@
         "link": "https://x.com/ZianTT_Official"
       }
     ]
+  },
+  {
+    "avatar": "https://cravatar.com/avatar/5417982dfeabcb9a22bfc582c88a4759?s=2000",
+    "name": "Daiyangcheng‘s Blog",
+    "banner": "dyc 的碎碎念",
+    "links": [
+      {
+        "name": "博客",
+        "link": "https://www.daiyangcheng.cn/"
+      }
+    ]
   }
 ]
