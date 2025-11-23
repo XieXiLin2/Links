@@ -11,22 +11,22 @@
     ]
   },
   {
-    "avatar": "https://cdn.nofated.win/avatar/256",
-    "name": "Nofated",
+    "avatar": "https://cloudflare.endpoint.amaneus.net/avatars/avatar.webp",
+    "name": "Amane",
     "banner": "Forever you will be in my heart.",
     "links": [
       {
         "name": "主页",
-        "link": "https://nof.moe"
+        "link": "https://amane.icu/"
       },
       {
         "name": "博客",
-        "link": "https://blog.nofated.win"
+        "link": "https://blog.amane.icu/"
       }
     ]
   },
   {
-    "avatar": "https://img.xiaomcserver.top/img/avatar/avatar3.jpg",
+    "avatar": "https://xiaomcserver.top/avatar.webp",
     "name": "xiaoMCkedou233",
     "banner": "屑蝌蚪.png",
     "links": [
@@ -137,7 +137,7 @@
     ]
   },
   {
-    "avatar": "https://server.akio.top/icon",
+    "avatar": "https://webstatic.akio.top/user/NiuBoss123.jpg",
     "name": "御坂秋生の小窝",
     "banner": "不努力就只能听到别人的好消息",
     "links": [
@@ -155,21 +155,6 @@
       {
         "name": "博客",
         "link": "https://www.xiaozonglin.cn"
-      }
-    ]
-  },
-  {
-    "avatar": "https://img.mrpigeon.eu.org/main/favicon.jpg",
-    "name": "和平鸽",
-    "banner": "少年当有凌云志，不众韶华不负卿",
-    "links": [
-      {
-        "name": "主页",
-        "link": "https://www.imhpg.ink"
-      },
-      {
-        "name": "博客",
-        "link": "https://blog.imhpg.ink"
       }
     ]
   },
@@ -211,24 +196,13 @@
     ]
   },
   {
-    "avatar": "https://blog.rkmiao.eu.org/images/profile.webp",
-    "name": "Phrinky",
+    "avatar": "https://blog.rkk.moe/images/profile.webp",
+    "name": "Phrinky's Blog",
     "banner": "Ricky 的各种日常捏",
     "links": [
       {
         "name": "博客",
-        "link": "https://blog.rkmiao.eu.org"
-      }
-    ]
-  },
-  {
-    "avatar": "https://blog.yisrime.xyz/wp-content/uploads/2024/01/YisRime.webp",
-    "name": "湙凇",
-    "banner": "浟湙潋滟 雾凇沆砀",
-    "links": [
-      {
-        "name": "博客",
-        "link": "https://blog.yisrime.xyz/"
+        "link": "https://blog.rkk.moe"
       }
     ]
   },
@@ -248,7 +222,7 @@
     ]
   },
   {
-    "avatar": "https://api.ymbit.cn/images/favicon.webp",
+    "avatar": "https://avatar.ymbit.cn/ ",
     "name": "烟墨的屑站点",
     "banner": "剃刀边缘怎能起造伽蓝。",
     "links": [
