@@ -212,9 +212,7 @@ function createInfoSection() {
         ]),
         element("ul", { className: "check-list" }, [
           createListItem("支持 HTTPS 协议，建议最低 TLS 版本为 v1.2。"),
-          createListItem("使用 dn42 内部地址时，请备注并使用 dn42 证书机构签发的 TLS 证书。"),
-          createListItem("文章数量不少于 10 篇；个人主页不受此条限制。"),
-          createListItem("原创文章至少 3 篇，内容不得违反中华人民共和国法律。"),
+          createListItem("内容不得违反中华人民共和国法律。"),
           createListItem("在中国大陆地区能够正常访问；国内服务器需要完成备案。"),
           createListItem("已经将本站添加到友链列表。"),
         ]),
@@ -236,7 +234,7 @@ function createInfoSection() {
           createInfoRow("描述", site.description),
         ]),
         element("p", { className: "muted" }, [
-          "请尽量使用 Gravatar 或上面的固定头像地址。没有其它特殊情况时，我不会移除友链；如果通过交换后移除了本站友链，我也会同步移除对应的小站。",
+          "请尽量使用 Gravatar。没有其它特殊情况时，我不会移除友链；如果通过交换后移除了本站友链，我也会同步移除对应的小站。",
         ]),
       ]),
     ]),
