@@ -309,5 +309,16 @@
         "link": "https://aiccrop.com/"
       }
     ]
+  },
+  {
+    "avatar": "https://www.xie.today/images/avatar.jpg",
+    "name": "RATING3PRO Blog",
+    "banner": "致最好的朋友，我不该忘记你的名字",
+    "links": [
+      {
+        "name": "博客",
+        "link": "https://www.xie.today/"
+      }
+    ]
   }
 ]
